@@ -1,8 +1,7 @@
-define(['c'], function(c) {
+define(function () {
    return {
        functionB: function() {
            console.log("b called");
-           c.functionC();
            return true;
        }
    }; 
